@@ -1,0 +1,13 @@
+[Unit]
+Description="test"
+After=network.target
+
+[Service]
+User=XXXXXX
+Group=adm
+WorkingDirectory=/home/XXXXXX/reports
+ExecStart=/home/XXXXXX/reports/venv/bin/python /home/XXXXXX/reports/report.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
