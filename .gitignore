@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+#useradded
+*secrets.ini
+hosts.txt
+
+
 # Distribution / packaging
 .Python
 env/
