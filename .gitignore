@@ -9,6 +9,8 @@ __pycache__/
 #useradded
 *secrets.ini
 hosts.txt
+*.idea/
+
 
 
 # Distribution / packaging
