@@ -1,0 +1,33 @@
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "autopep8",
+    "python.formatting.blackPath": "venv/bin/black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "88"
+    ],
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "venv/bin/flake8",
+    "python.linting.flake8Args": [
+        "--extend-ignore=E731",
+        "--max-line-length=99",
+        "--import-order-style=appnexus",
+        "--inline-quotes=double"
+    ],
+    "python.pythonPath": "venv/bin/python",
+    "files.exclude": {
+        ".env/**": true,
+        "**/__pycache__": true,
+        "**/**/*.pyc": true
+    },
+    "files.watcherExclude": {
+        ".env/**": true,
+        "**/__pycache__": true,
+        "**/**/*.pyc": true
+    }
+}
